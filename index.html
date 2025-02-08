@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/iconzu.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>WorkOut</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Register</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="inputbox">
+                    <input required="required" type="text">
+                    <span>Name</span>
+                    <i></i>
+                </div><br>
+                <div class="inputbox">
+                    <input required="required" type="email">
+                    <span>Email</span>
+                    <i></i>
+                </div><br>
+                <div class="inputbox">
+                    <input required="required" type="password">
+                    <span>Password</span>
+                    <i></i>
+                </div><br>
+                <div class="inputbox">
+                    <input required="required" type="password">
+                    <span>RePassword</span>
+                    <i></i>
+                </div><br>
+                <button>Sign Up</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="inputbox">
+                    <input required="required" type="email">
+                    <span>Email</span>
+                    <i></i>
+                </div> <br>
+
+                <div class="inputbox">
+                    <input required="required" type="password">
+                    <span>Password</span>
+                    <i></i>
+                </div>
+                <a href="#">Forgot Your Password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome!</h1><br>
+                    <p>You can add your personal credentials for registration</p><br>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello</h1><br>
+                    <p>You can use your E-mail and password for sign in</p><br>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-container-main">
+        <div class="section-container">
+            <section class="section" id="section1">
+                <div class="fruit-images">
+                    <div class="image-one fruit-image"><img src="images/barbel1-removebg-preview.png" alt="pear-image"></div>
+                    <div class="image-two fruit-image"><img src="images/cim1-removebg-preview.png" alt="pear-image"></div>
+                    <div class="image-three fruit-image"><img src="images/kettleball-removebg-preview.png" alt="pear-image"></div>
+                    <div class="image-four fruit-image"><img src="images/image4bootle.png" alt="pear-image"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
